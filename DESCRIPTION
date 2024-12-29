@@ -1,0 +1,19 @@
+Package: MPAMIC.Forecaster
+Title: Agricultural Commodity Price Forecast App
+Version: 0.1
+Authors@R: 
+    person(given = "Dr. Gourav Kumar",
+           family = "Vani",
+           role = c("aut", "cre"),
+           email = "kumaragri.vani1@gmail.com")
+Description: This package automates forecasting and validation & dataentry of price of agricultural commodities in Madhya Pradesh State of India.
+License: GPL 3.0
+Imports: config, dplyr, DT, forecast, ggplot2, golem, gsheet,
+        htmlwidgets, lmtest, pkgload, plotly, sandwich, shiny, shinyBS,
+        zoo
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Author: Dr. Gourav Kumar Vani [aut, cre]
+Maintainer: Dr. Gourav Kumar Vani <kumaragri.vani1@gmail.com>
+Built: R 4.2.2; ; 2024-12-29 19:05:19 UTC; windows
